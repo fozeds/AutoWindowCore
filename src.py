@@ -68,7 +68,7 @@ class TreeFinder():
                 self.open_the_window(title=window_title)
         else:
             if self.programdir:
-                # i really dont know why subprocess dont work with .lnk and serverless files.
+                # i really dont know why subprocess dont work with .lnk and remotely/off-site files.
                 system(f"start {self.programdir}")
                 sleep(2)
                 if login_page:
