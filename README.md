@@ -130,7 +130,7 @@ png = {
 ## Estrutura de Diretórios
 
 Certifique-se de que o diretório de imagens está corretamente configurado e contém os arquivos de imagem necessários. A estrutura de diretórios deve ser semelhante a:
-
+```
 /path/to/your/project/
 ├── core.py
 ├── images/
@@ -138,3 +138,4 @@ Certifique-se de que o diretório de imagens está corretamente configurado e co
 │   ├── username_field.png
 │   └── password_field.png
 ├── files.py (files deve conter cada nome de imagem com uma key especifica)
+```
