@@ -1,8 +1,8 @@
-# Classe Core
+# Core
 
 ## Visão Geral
 
-A classe `Core` é projetada para facilitar tarefas de automação envolvendo gerenciamento de janelas e interações baseadas em imagens em um sistema operacional Windows. Esta classe utiliza várias bibliotecas, como `pyautogui`, `pygetwindow`, `pywinauto` e `ctypes`, para interagir com a interface gráfica do Windows e realizar tarefas automatizadas.
+ `Core` é projetado para facilitar tarefas de automação envolvendo gerenciamento de janelas e interações baseadas em imagens em um sistema operacional Windows. Esta classe utiliza várias bibliotecas, como `pyautogui`, `pygetwindow`, `pywinauto` e `ctypes`, para interagir com a interface gráfica do Windows e realizar tarefas automatizadas.
 
 ## Atributos
 
