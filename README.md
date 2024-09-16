@@ -11,22 +11,22 @@ A classe `Core` é projetada para facilitar tarefas de automação envolvendo ge
 
 ## Métodos
 
-### `get_active_window_names() -> list[str]`
+`get_active_window_names() -> list[str]`
 Retorna uma lista de todos os títulos de janelas ativas no momento.
 
-### `get_active_window_name() -> str`
+`get_active_window_name() -> str`
 Retorna o título da janela atualmente ativa.
 
-### `open_window(window_title: str) -> None`
+`open_window(window_title: str) -> None`
 Foca na janela com o título especificado se ela estiver atualmente ativa.
 
-### `open_software(programdir: str) -> None`
+`open_software(programdir: str) -> None`
 Abre um aplicativo de software localizado no diretório especificado.
 
-### `wait_until_window_is_open(window: str, timeout: int = 20) -> None`
+`wait_until_window_is_open(window: str, timeout: int = 20) -> None`
 Espera até que a janela especificada se torne ativa ou lança um TimeoutError.
 
-### `execute_image_based_write(
+`execute_image_based_write(
     auth_img_array: list[str],
     auth_str_array: list[str],
     diff: tuple[tuple[int, int], tuple[int, int], tuple[int, int]] = ((0, 0), (0, 0), (0, 0))
