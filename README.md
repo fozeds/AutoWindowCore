@@ -29,7 +29,7 @@ Espera até que a janela especificada se torne ativa ou lança um TimeoutError.
 `execute_image_based_write( auth_img_array: list[str], auth_str_array: list[str], diff: tuple[tuple[int, int], tuple[int, int], tuple[int, int]] = ((0, 0), (0, 0), (0, 0)) ) -> None`
 Realiza interações baseadas em imagens com a tela, como cliques e digitação, com base em imagens e strings fornecidas.
 
-### `search_open_and_auth(
+`search_open_and_auth(
     window_title: str,
     has_login: bool = False,
     login_page: str = "",
@@ -40,10 +40,10 @@ Realiza interações baseadas em imagens com a tela, como cliques e digitação,
 ) -> None`
 Verifica se a janela especificada está aberta e tenta abrir o software se não estiver. Se o login for necessário, realiza a autenticação.
 
-### `find_image_path(dict_key: str) -> str`
+`find_image_path(dict_key: str) -> str`
 Encontra o caminho para um arquivo de imagem no diretório de trabalho atual com base em uma chave do dicionário de imagens.
 
-### `find_img_and_click(
+`find_img_and_click(
     dict_key: str,
     difx: int = 0,
     dify: int = 0,
@@ -51,17 +51,17 @@ Encontra o caminho para um arquivo de imagem no diretório de trabalho atual com
 ) -> None`
 Encontra uma imagem na tela e realiza um clique em sua localização com offsets e atraso opcionais.
 
-### `try_click_one_or_more(*dict_key_tuple: str) -> None`
+`try_click_one_or_more(*dict_key_tuple: str) -> None`
 Tenta encontrar e clicar em cada imagem especificada na tela.
 
-### `wait_until_is_on_screen(
+`wait_until_is_on_screen(
     key: str,
     timeout: int = 200,
     poll_interval: int = 2
 ) -> None`
 Espera até que uma imagem especificada apareça na tela ou expira após o tempo dado.
 
-### `alert_window(message: str, title: str) -> None`
+`alert_window(message: str, title: str) -> None`
 Exibe uma caixa de mensagem do Windows com a mensagem e o título fornecidos.
 
 ## Exemplos de Uso
