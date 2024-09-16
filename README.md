@@ -26,11 +26,7 @@ Abre um aplicativo de software localizado no diretório especificado.
 `wait_until_window_is_open(window: str, timeout: int = 20) -> None`
 Espera até que a janela especificada se torne ativa ou lança um TimeoutError.
 
-`execute_image_based_write(
-    auth_img_array: list[str],
-    auth_str_array: list[str],
-    diff: tuple[tuple[int, int], tuple[int, int], tuple[int, int]] = ((0, 0), (0, 0), (0, 0))
-) -> None`
+`execute_image_based_write( auth_img_array: list[str], auth_str_array: list[str], diff: tuple[tuple[int, int], tuple[int, int], tuple[int, int]] = ((0, 0), (0, 0), (0, 0)) ) -> None`
 Realiza interações baseadas em imagens com a tela, como cliques e digitação, com base em imagens e strings fornecidas.
 
 ### `search_open_and_auth(
