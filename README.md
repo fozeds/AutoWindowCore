@@ -106,7 +106,7 @@ core.wait_until_is_on_screen("loading_spinner")
 
 # Exibe uma janela de alerta
 core.alert_window("Operação concluída com sucesso.", "Sucesso")
-
+```
 ## Dependências
 
 Certifique-se de que as seguintes bibliotecas estão instaladas:
@@ -126,7 +126,7 @@ png = {
     "username_field": "username_field.png",
     "password_field": "password_field.png"
 }
-
+```
 ## Estrutura de Diretórios
 
 Certifique-se de que o diretório de imagens está corretamente configurado e contém os arquivos de imagem necessários. A estrutura de diretórios deve ser semelhante a:
