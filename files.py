@@ -1,3 +1,4 @@
+# aqui fica uma chave para todas as suas imagens na pasta images
 png = {
     1: "arvore1.png",
     2: "arvore2.png",
